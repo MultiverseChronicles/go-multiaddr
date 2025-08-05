@@ -2,6 +2,12 @@ module github.com/MultiverseChronicles/go-multiaddr
 
 go 1.24.0
 
+replace (
+	github.com/libp2p/go-libp2p => github.com/MultiverseChronicles/go-libp2p v0.23.0
+	github.com/libp2p/go-libp2p-core => github.com/MultiverseChronicles/go-libp2p-core v0.0.1
+	github.com/multiformats/go-multiaddr => github.com/MultiverseChronicles/go-multiaddr v1.1.0
+)
+
 require (
 	github.com/ipfs/go-cid v0.5.0
 	github.com/multiformats/go-multiaddr v0.16.0
